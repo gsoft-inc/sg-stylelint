@@ -1,10 +1,10 @@
 # sg-stylelint
 
-Sharegate shared stylelint config.
+Sharegate shared [stylelint](https://stylelint.io/) config.
 
 ## Installation
 
-First, install the recommended ESLint configuration packages with your favorite package manager.
+Install the recommended stylelint configuration packages.
 
 With NPM:
 
@@ -36,11 +36,11 @@ To enable stylelint autofix **on save**, add the following configuration to your
 
 ## Maintainers
 
-The following documentation is only for the maintainers of the package.
+The following documentation is only for the maintainers of this repository.
 
 ### Installation
 
-First, clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/gsoft-inc/sg-stylelint.git
