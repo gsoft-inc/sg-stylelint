@@ -1,6 +1,6 @@
 # sg-stylelint
 
-Sharegate shared [stylelint](https://stylelint.io/) config.
+ShareGate shared [stylelint](https://stylelint.io/) config.
 
 ## Installation
 
