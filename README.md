@@ -22,17 +22,35 @@ module.exports = {
 
 ### VSCode
 
-Install the [stylelint extension for VSCode](https://github.com/shinnn/vscode-stylelint). The extension will provide Just In Time linting while typing in VSCode.
+Install the [stylelint extension for VSCode]("hex-ci.stylelint-plus"). The extension will provide Just In Time linting while typing in VSCode and code autofixing.
 
 To enable stylelint autofix **on save**, add the following configuration to your VSCode project settings:
 
 ```javascript
 {
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": false /* Can be turned on */
+    },
     "json.format.enable": false,
-    "prettier.stylelintIntegration": true /* If you use prettier */
+    "stylelint.autoFixOnSave": true
 }
 ```
+
+This is also strongly recommended that you had a `.prettierignore` file at the root of your project with `*` as content to prevent any conflict between stylelint and Prettier for user who have the Prettier VSCode extension installed:
+
+```javascript
+// .prettierignore
+*
+```
+
+You might wonder why Prettier is not the favorite tool anymore to autofix CSS code... We used to format CSS with Prettier because [stylelint autofixing](https://stylelint.io/user-guide/cli#autofixing-errors) was not very good. Recently it have greatly improved and most rules now support autofix. 
+
+It also comes with a few benefits:
+
+- No more weak integration between Prettier and stylelint.
+- All styleling linting rules can now be validated on the CI.
 
 ## Maintainers
 

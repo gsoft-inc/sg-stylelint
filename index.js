@@ -1,6 +1,7 @@
 module.exports = {
     extends: "stylelint-config-recommended",
     rules: {
+        "indentation": 4,
         "length-zero-no-unit": true,
         "number-no-trailing-zeros": true,
         "color-no-invalid-hex": true,
@@ -19,6 +20,7 @@ module.exports = {
             "s"
         ],
         "max-nesting-depth": 2,
+        "max-empty-lines": [1, { ignore: ["comments"] }],
         "max-line-length": 200,
         "no-eol-whitespace": true,
         "selector-pseudo-class-no-unknown": [
@@ -37,6 +39,16 @@ module.exports = {
         "declaration-block-trailing-semicolon": "always",
         "declaration-colon-newline-after": "always-multi-line",
         "declaration-block-no-duplicate-properties": true,
-        "declaration-colon-space-before": "never"
+        "declaration-colon-space-before": "never",
+        "no-empty-first-line": true,
+        "rule-empty-line-before": ["always", { except: ["after-single-line-comment", "inside-block-and-after-rule", "first-nested"] }],
+        "block-opening-brace-newline-after": "always",
+        "block-closing-brace-newline-before": "always",
+        "declaration-colon-space-after": "always",
+        "declaration-empty-line-before": "never",
+        "property-case": "lower",
+        "unit-case": "lower",
+        "string-quotes": "double",
+        "font-weight-notation": "numeric"
     }
 };
