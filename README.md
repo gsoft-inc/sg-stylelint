@@ -22,7 +22,7 @@ module.exports = {
 
 ### VSCode
 
-Install the [stylelint extension for VSCode]("hex-ci.stylelint-plus"). The extension will provide Just In Time linting while typing in VSCode and code autofixing.
+Install the [stylelint extension for VSCode]("https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus"). The extension will provide Just In Time linting while typing in VSCode and code autofixing.
 
 To enable stylelint autofix **on save**, add the following configuration to your VSCode project settings:
 
