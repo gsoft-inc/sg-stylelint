@@ -42,6 +42,11 @@ This is also strongly recommended that you had a `.prettierignore` file at the r
 
 ```javascript
 // .prettierignore
+*.css
+*.less
+*.saas
+
+// or if you want to ignore all files
 *
 ```
 
@@ -50,7 +55,7 @@ You might wonder why Prettier is not the favorite tool anymore to autofix CSS co
 It also comes with a few benefits:
 
 - No more weak integration between Prettier and stylelint.
-- All styleling linting rules can now be validated on the CI.
+- All stylelint linting rules can now be validated on the CI.
 
 ## Maintainers
 
