@@ -8,7 +8,7 @@ module.exports = {
         "color-hex-case": "upper",
         "at-rule-name-space-after": "always-single-line",
         "no-duplicate-at-import-rules": true,
-        "unit-whitelist": [
+        "unit-allowlist": [
             "em",
             "rem",
             "px",
