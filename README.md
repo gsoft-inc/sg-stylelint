@@ -1,5 +1,7 @@
 # sg-stylelint
 
+[![NPM Status](https://img.shields.io/npm/v/@sharegate/stylelint-config-recommended.svg)](https://www.npmjs.com/package/@sharegate/stylelint-config-recommended)
+
 ShareGate shared [stylelint](https://stylelint.io/) config.
 
 ## Installation
