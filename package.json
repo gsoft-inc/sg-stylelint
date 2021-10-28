@@ -1,6 +1,6 @@
 {
     "name": "@sharegate/stylelint-config-recommended",
-    "version": "2.1.1",
+    "version": "3.0.0",
     "description": "Sharegate recommended stylelint config.",
     "main": "index.js",
     "repository": "https://github.com/gsoft-inc/sg-stylelint.git",
@@ -10,13 +10,13 @@
         "release": "yarn publish --access public"
     },
     "peerDependencies": {
-        "stylelint": ">=13.7.0"
+        "stylelint": ">=14.0.0"
     },
     "dependencies": {
-        "stylelint-config-recommended": "^3"
+        "stylelint-config-recommended": "^6"
     },
     "devDependencies": {
-        "@sharegate/eslint-config-recommended": "1.0.1",
-        "eslint": "6.1.0"
+        "@sharegate/eslint-config-recommended": "1.1.1",
+        "eslint": "7.32.0"
     }
 }

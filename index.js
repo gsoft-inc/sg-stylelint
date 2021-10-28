@@ -1,7 +1,7 @@
 module.exports = {
     extends: "stylelint-config-recommended",
     rules: {
-        "indentation": 4,
+        "indentation"  : 4,
         "length-zero-no-unit": true,
         "number-no-trailing-zeros": true,
         "color-no-invalid-hex": true,
