@@ -7,16 +7,17 @@
     "author": "Groupe Sharegate inc.",
     "license": "Apache-2.0",
     "scripts": {
-        "release": "yarn publish --access public"
+        "release": "yarn publish --access public",
+        "lint": "eslint . --ext .js"
     },
     "peerDependencies": {
-        "stylelint": ">=14.0.0"
+        "stylelint": ">=14.10.0"
     },
     "dependencies": {
-        "stylelint-config-recommended": "^7"
+        "stylelint-config-recommended": "^9"
     },
     "devDependencies": {
-        "@sharegate/eslint-config-recommended": "1.1.1",
-        "eslint": "7.32.0"
+        "@sharegate/eslint-config-recommended": "1.2.0",
+        "eslint": "8.27.0"
     }
 }

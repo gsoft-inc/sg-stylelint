@@ -17,6 +17,7 @@ npm i -D stylelint @sharegate/stylelint-config-recommended
 Then, create a file called `stylelint.config.js` at the root of your project and add the following configurations:
 
 ```javascript
+/** @type {import('stylelint').Config} */
 module.exports = {
     extends: "@sharegate/stylelint-config-recommended"
 };
