@@ -17,7 +17,8 @@ module.exports = {
             "deg",
             "vh",
             "vw",
-            "s"
+            "s",
+            "ch"
         ],
         "max-nesting-depth": 2,
         "max-empty-lines": [1, { ignore: ["comments"] }],
@@ -44,11 +45,12 @@ module.exports = {
         "rule-empty-line-before": ["always", { except: ["after-single-line-comment", "inside-block-and-after-rule", "first-nested"] }],
         "block-opening-brace-newline-after": "always",
         "block-closing-brace-newline-before": "always",
-        "declaration-colon-space-after": "always",
+        "declaration-colon-space-after": "always-single-line",
         "declaration-empty-line-before": "never",
         "property-case": "lower",
         "unit-case": "lower",
         "string-quotes": "double",
-        "font-weight-notation": "numeric"
+        "font-weight-notation": "numeric",
+        "no-descending-specificity": null
     }
 };
