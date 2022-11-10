@@ -1,6 +1,6 @@
 {
     "name": "@sharegate/stylelint-config-recommended",
-    "version": "4.0.0",
+    "version": "5.0.0",
     "description": "Sharegate recommended stylelint config.",
     "main": "index.js",
     "repository": "https://github.com/gsoft-inc/sg-stylelint.git",
